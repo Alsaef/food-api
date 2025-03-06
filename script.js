@@ -8,11 +8,13 @@ const loadFood=(scarch)=>{
 function loadData(dataFood) {
     console.log(dataFood);
      const notFound=document.getElementById("no-found")
-    if (dataFood==null) {
+    if (dataFood===null) {
       notFound.classList.remove("d-none")
+      prossing(false)
     }
     else{
       notFound.classList.add("d-none")
+      prossing(false)
     } 
    
     const main=document.getElementById("main")
