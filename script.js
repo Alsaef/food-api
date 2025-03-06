@@ -48,9 +48,9 @@ function scarch(){
     
     inputFild.value=""
 }
-function prossing(isData) {
+function prossing(isLoadading) {
   const prossing=document.getElementById("prossing")
-  if (isData) {
+  if (isLoadading) {
     prossing.classList.remove("d-none")
   } else {
     prossing.classList.add("d-none")
